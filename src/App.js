@@ -26,7 +26,7 @@ function App() {
         </div>
 
         <div className="timer">{timer}</div>
-        <Timer initialMinute = {0} initialSeconds={3}  changeColor ={console.log("test")} />
+        <Timer initialMinute = {0} initialSeconds={3}   bgColor={backgroundColor} changeColor={(e)=>setBackgroundColor(backgroundColor)}/>
 
         <FunctionButton />
        
